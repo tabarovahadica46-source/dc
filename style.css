@@ -157,6 +157,28 @@ color: #737373;
     justify-content: space-around;
     margin-top: 40px;
 }
+.cir{
+    width: 330px;
+    height: 150px;
+    border: 1px solid rgb(230, 227, 227);
+    background-color: white;
+    border-radius: 10px;
+  text-align: center;
+  line-height: 25px;
+}
+.one-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.phone{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
 @media (max-width:510px) {
     .head{
         width: 400px;
@@ -231,6 +253,13 @@ color: #737373;
       
        align-items: center;
      width: 100%;
+    }
+    .one-row{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        width: 100%;
     }
 
     
