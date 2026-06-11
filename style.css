@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.p4{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.button-p{
+   
+}
+.ps{
+    color: white;
+}
+.b-w-i{
+    display: flex;
+     background-color: #23A6F0;
+    padding: 20px;
+    border-radius: 10px;
+gap: 10px;
+    align-items: center;
+}
+.ph{
+    font-size: 20px;
+    font-weight: 700;
+}
+button{
+    background-color: #23A6F0;
+    padding: 20px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #23A6F0;
+    color: white;
+}
+.meet{
+    font-size: 58px;
+    font-weight: 700;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+
+}
+.we{
+    font-size: 18px;
+    font-weight: 500;
+    width: 340px;
+    margin-bottom: 50px;
+}
+.form{
+    width: 350px;
+    height: 600px;
+    background-color: rgb(252, 251, 251);
+    padding-top: 10px;
+text-align: center;
+border-radius: 10px;
+}
+.book-p{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    height: 50px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+label{
+    margin-left: 0px;
+}
+.form-p{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+}
+.absolute{
+    position:relative;
+    top: -850px;
+   
+}
+@media (max-width:510px) {
+    .head{
+        width: 400px;
+        background-color: white;
+       margin-top: -1090px;
+        color: black;
+        margin-bottom: 30px;
+       
+    }
+    .absolute{
+        position: static;
+
+    }
+    .doc{
+        margin-top: 200px;
+        height: 990px;
+    }
+    .b-w-i{
+        display: none;
+    }
+    .form-p{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        gap: 30px;
+        margin-top: -30px;
+    }
+    
+    
+
+    
+}
