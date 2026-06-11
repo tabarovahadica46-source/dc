@@ -179,6 +179,20 @@ color: #737373;
     margin: auto;
     margin-top: 70px;
 }
+.six{
+    background-color: #252B42;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding-top: 30px;
+}
+.seven{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    color: #737373;
+}
 @media (max-width:510px) {
     .head{
         width: 400px;
