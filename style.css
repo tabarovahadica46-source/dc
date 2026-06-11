@@ -90,6 +90,46 @@ label{
     top: -850px;
    
 }
+.leading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    text-align: center;
+    margin-top: -640px;
+}
+.problem{
+    font-size: 18px;
+    font-weight: 400;
+    color: #737373;
+    text-align: center;
+}
+.square{
+    border: 1px solid rgb(26, 151, 205);
+    background-color: #8EC2F2;
+    width: 330px;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+}
+.square-down{
+width: 330px;
+height: 250px;
+border-radius: 16px;
+border: 1px solid #8EC2F2;
+font-weight: 600;
+text-align: center;
+
+line-height: 35px;
+color: #737373;
+}
+.sq-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
 @media (max-width:510px) {
     .head{
         width: 400px;
