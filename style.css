@@ -275,6 +275,26 @@ color: #737373;
         align-items: center;
         width: 100%;
     }
+    .phone{
+        display: flex;
+        flex-direction:column ;
+       gap: 20px;
+        width: 100%;
+       
+      
 
+    }
+.six{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.seven{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
     
 }
