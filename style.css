@@ -130,6 +130,33 @@ color: #737373;
     justify-content: space-around;
     margin-top: 80px;
 }
+.kvadrat{
+    width: 330px;
+    height: 200px;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 14px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.leadin{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252B42;
+    text-align: center;
+    margin-top: 60px;
+}
+.proble{
+    font-size: 18px;
+    font-weight: 400;
+    color: #737373;
+    text-align: center;
+}
+.gen{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
 @media (max-width:510px) {
     .head{
         width: 400px;
@@ -157,8 +184,54 @@ color: #737373;
         gap: 30px;
         margin-top: -30px;
     }
+    .sq-3{
     
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+       row-gap: 20px;
+    }
+    .leading{
+        margin: auto;
+        margin-top: 70px;
+        width: 300px;
+        text-align: center;
+      
+    }
+    .problem{
+          margin: auto;
+        width: 300px;
+          text-align: center;
+       
+    }
+    .leadin{
+        margin: auto;
+        margin-top: 70px;
+        width: 300px;
+        text-align: center;
+      
+    }
+    .proble{
+          margin: auto;
+        width: 300px;
+          text-align: center;
+       
+    }
     
+    .gen{
+    
+       
+        display: flex;
+        flex-direction: column;
+       
+        margin-top: 100px;
+       row-gap: 40px;
+      
+       align-items: center;
+     width: 100%;
+    }
 
     
 }
